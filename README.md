@@ -45,3 +45,4 @@ docker run -d -p 80:6000 --name triservercontainer triserver
 ```
 9. Ingrese usando el DNS de la máquina
 ### Video del funcionamiento 
+[Funcionamiento de la aplicación](https://youtu.be/kqAEGH1BhZw)
