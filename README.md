@@ -31,19 +31,19 @@ un JSON que contiene el resultado de la operación.
 git clone https://github.com/germanAOQ/AREP-Parcial2-EC2
 ```
 
-6. Compile el proyecto desde la raiz de este:
+4. Compile el proyecto desde la raiz de este:
 ```
 mvn clean install
 ```
-7. Cree la images docker:
+5. Cree la images docker:
 ```
 docker build --tag triserver .
 ```
-8 Cree el contenedor y corralo:
+6 Cree el contenedor y corralo:
 ```
 docker run -d -p 80:6000 --name triservercontainer triserver
 ```
-9. Ingrese usando el DNS de la máquina
+7. Ingrese usando el DNS de la máquina
 
 ### Link a la segunda parte del parcial
 [Segunda parte del parcial](https://github.com/germanAOQ/AREP-Parcial2-Lambda)
