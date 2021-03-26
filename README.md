@@ -44,5 +44,13 @@ docker build --tag triserver .
 docker run -d -p 80:6000 --name triservercontainer triserver
 ```
 9. Ingrese usando el DNS de la máquina
+<<<<<<< HEAD
 ### Video del funcionamiento 
 [Funcionamiento de la aplicación](https://youtu.be/kqAEGH1BhZw)
+=======
+
+### Link a la segunda parte del parcial
+[Segunda parte del parcial](https://github.com/germanAOQ/AREP-Parcial2-Lambda)
+### Video del funcionamiento 
+El video contiene el funcionamiento de las dos partes del parcial
+>>>>>>> 7b0de4ab578efa11e70b98f127b2364098c1b682
